@@ -54,8 +54,13 @@ ul li {
     font-size: 19px;
     cursor: pointer;
     position: relative;
-    line-height: 30px;
+    line-height: 40px;
+    border-bottom: 1px solid rgb(206, 206, 206);
     /* border: 1px solid black; */
+}
+
+#list {
+    margin-top: -17px;
 }
 
 ul li:hover {
@@ -88,5 +93,11 @@ i {
     position: absolute;
     right: 30%;
     color: rgb(206, 11, 11);
-    margin-top: 5px;
+    margin-top: 10px;
+}
+
+@media (max-width: 550px) {
+    .container {
+        width: 95%;
+    }
 }

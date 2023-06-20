@@ -32,8 +32,8 @@ function addTask(e) {
          var icon = document.createElement("i");
          icon.setAttribute("class", "fa-regular fa-trash-can");
          task.appendChild(icon);
-         var hr =document.createElement("hr");
-         list.appendChild(hr);
+        //  var hr =document.createElement("hr");
+        //  list.appendChild(hr);
          textbox.value = "";
          save();
         }
