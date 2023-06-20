@@ -40,7 +40,7 @@ function addTask(e) {
          };
 
 function save () {
-    localStorage.setItem("data", list.innerHTML)
+    localStorage.setItem("data", restored.innerHTML + list.innerHTML)
 }
 
 function restore () {
