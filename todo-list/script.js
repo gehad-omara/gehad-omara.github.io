@@ -1,5 +1,3 @@
-/*getElementsByTagName could not be used with addEventListener, I don't know why*/
-
 const button = document.querySelector("button");
 const listContainer = document.getElementById("list-container");
 const list = document.getElementById("list");
